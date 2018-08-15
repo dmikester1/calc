@@ -50,7 +50,7 @@ export default {
         this.current = '';
         this.operatorClicked = false;
       }
-      if(this.current.length < 8) {
+      if(this.current.length < 12) {
         this.current = `${this.current}${number}`;
       }
     },
